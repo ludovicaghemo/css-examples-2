@@ -1,0 +1,70 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: white;
+}
+
+.border {
+    border: 3px solid black;
+    /* border-top: 3px solid violet;
+    border-bottom: 3px solid green; */
+}
+
+.padding {
+    /* padding: 10px 5px 15px 10px; */
+    /* padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 10px; */
+    /* padding: 10px 20px; */
+    padding: 10px 20px 5px;
+    /* qui è top, poi orizzontale - sx e dx - e poi bottom */
+}
+
+.margin {
+    
+    /* margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px; */
+    /* margin: 30px 15px 10px 20px; */
+    /* margin: 10px 20px; */
+    /* margin: 20px 10px 5px; */
+    /* questo è top-orizzontale-bottom */
+    margin-left: 20%;
+    /* % di cosa? in base alla larghezza dello schermo in questo caso */
+}
+.big-square {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+}
+
+.m-auto {
+    background-color: red;
+    margin: 0 auto;
+    /* applicato in larghezza -> 0 su e giu, auto dx sx */
+}
+
+.border-radius {
+    border-radius: 20%;
+}
+
+.d-block {
+    display: block;
+    /* ora "ciao" prende tutta la riga, è diventato block */
+}
